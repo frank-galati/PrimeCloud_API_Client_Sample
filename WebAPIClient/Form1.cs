@@ -34,10 +34,12 @@ namespace WebAPIClient
                 request.ContentType = "application/x-www-form-urlencoded";
                 request.Headers.Add("Authorization", "Basic " + encodedUserCredentials);
 
-                StreamWriter requestWriter = new StreamWriter(request.GetRequestStream());
-                requestWriter.Close();
-
-                var response = request.GetResponse() as HttpWebResponse;
+                HttpWebResponse response;
+                using (Stream output = request.GetRequestStream())
+                {
+                    response = request.GetResponse() as HttpWebResponse;
+                }
+                request.Abort(); 
 
                 richTextBox1.Text = "";
                 richTextBox1.Text = response.Headers.ToString();
