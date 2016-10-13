@@ -89,14 +89,15 @@ namespace WebAPIClient
                 postParameters.Add("fileformat", "xml");
                 postParameters.Add("file", new FormUpload.FileParameter(File.ReadAllBytes(openFileDialog1.FileName), System.IO.Path.GetFileName(openFileDialog1.FileName), "application/xml"));
 
-                // FormUpload.MultipartFormDataPost("http://localhost:60931/api/incorp/postxml", xtoken, postParameters);
 
                 try
                 {
-                    using (var response = (HttpWebResponse)FormUpload.MultipartFormDataPost(txtserver.Text + "/api/incorp/postxml", xtoken, postParameters).GetResponse())
+                    var httpWebRequest = FormUpload.MultipartFormDataPost(txtserver.Text + "/api/incorp/postxml", xtoken, postParameters);
+                    using (var response = (HttpWebResponse)httpWebRequest.GetResponse())
                     {
                         richTextBox2.Text = "Status Code: " + response.StatusCode + "\n Status Desc: " + response.StatusDescription + "\n" + response.ToString();
                     }
+                    httpWebRequest.Abort();
                 }
                 catch (WebException err)
                 {
