@@ -1,0 +1,18 @@
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe.config
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.pdb
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.Form1.resources
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.Properties.Resources.resources
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csproj.GenerateResource.Cache
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.exe
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.pdb
+D:\PRIMEPLUS-TEST-N-DEVELOPMENT-UNIT\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csprojResolveAssemblyReference.cache
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\bin\Debug\WebAPIClient.exe.config
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\obj\Debug\WebAPIClient.exe
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\obj\Debug\WebAPIClient.pdb
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\bin\Debug\WebAPIClient.exe
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\bin\Debug\WebAPIClient.pdb
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\obj\Debug\WebAPIClient.csprojResolveAssemblyReference.cache
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\obj\Debug\WebAPIClient.Form1.resources
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\obj\Debug\WebAPIClient.Properties.Resources.resources
+D:\GIT HUB REPOS\PrimeCloud_API_Client_Sample\WebAPIClient\obj\Debug\WebAPIClient.csproj.GenerateResource.Cache
